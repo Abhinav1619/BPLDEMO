@@ -1,0 +1,6 @@
+{
+  "name": "Cortex OT Dashboard",
+  "description": "Interactive operating theater dashboard prototype with sliding panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

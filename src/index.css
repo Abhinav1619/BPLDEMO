@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+/* Hide scrollbar for clean horizontal scrolling tabs */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.bg-medical-pattern {
+  background-color: #eaf8fc;
+  background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23009ada' fill-opacity='0.08'%3E%3Cpath d='M30 80h20v-20h20v20h20v20h-20v20h-20v-20h-20zM130 30a10 10 0 1 0 0-20 10 10 0 0 0 0 20zm30 30a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-60 20a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm25 70h10v-10h10v10h10v10h-10v10h-10v-10h-10z'/%3E%3Cpath stroke='%23009ada' stroke-opacity='0.08' stroke-width='2' d='M130 30l30 30M130 30l-30 20'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 250px 250px;
+}
